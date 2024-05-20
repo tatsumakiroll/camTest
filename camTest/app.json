@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "camTest",
+        "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Camera-App to access your camera",
+          "microphonePermission": "Allow Camera-App to access your microphone",
+          "recordAudioAndroid": true
+        }
+      ]
+    ],
+    "slug": "camTest",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "apple"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.wasabi_p.camTest"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "02d9d5e3-984b-415e-8438-140fa01c02d3"
+      }
+    }
+  }
+}
